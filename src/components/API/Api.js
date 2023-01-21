@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-// const keyAPI = "efe4f4b5225337353e81b7d3767f3e89"
+// const keyAPI = "efe4f4b5225337353e81b7d3767f3e89" https://api.themoviedb.org/3/movie/550?api_key=efe4f4b5225337353e81b7d3767f3e89
 
 const KEY_API = 'efe4f4b5225337353e81b7d3767f3e89';
 const BASE_URL = 'https://api.themoviedb.org/3';
