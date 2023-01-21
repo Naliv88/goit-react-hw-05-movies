@@ -1,0 +1,16 @@
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.btnBack {
+  width: 70px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.btnBack:hover {
+  background: grey;
+}
