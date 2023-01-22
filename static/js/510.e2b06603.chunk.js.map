@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/510.e2b06603.chunk.js","mappings":"0JAQA,UAPiB,WACf,OACE,sDACyB,2DAG5B,C","sources":["components/pages/NotFound/NotFound.jsx"],"sourcesContent":["\nconst NotFound = () => {\n  return (\n    <div>\n      THIS PAGE NOT FOUND... <div>Please click Home or Movies</div>\n    </div>\n  );\n};\nexport default NotFound;"],"names":[],"sourceRoot":""}
