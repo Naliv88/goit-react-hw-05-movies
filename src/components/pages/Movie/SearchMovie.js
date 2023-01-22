@@ -4,7 +4,7 @@ import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
 import * as API from '../../API/Api';
 import style from './SearchMovie.module.css';
 
-export const Movies = () => {
+const Movies = () => {
   const [movieList, setMovieList] = useState(null);
   // const [query, setQuery] = useState();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -59,3 +59,5 @@ export const Movies = () => {
     </div>
   );
 };
+
+export default Movies;

@@ -10,7 +10,7 @@ import {
 import * as API from '../../API/Api';
 import style from './MovieDescription.module.css';
 
-export const MovieDetails = () => {
+const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
   const { movieId } = useParams();
   const location = useLocation();
@@ -52,3 +52,6 @@ export const MovieDetails = () => {
     </div>
   );
 };
+
+
+export default MovieDetails;

@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import * as API from '../API/Api';
 import style from './Cast.module.css'
 
-export const Cast = () => {
+const Cast = () => {
   const [cast, setCast] = useState([]);
   const { movieId } = useParams();
 
@@ -35,3 +35,4 @@ export const Cast = () => {
     </>
   );
 };
+export default Cast;
